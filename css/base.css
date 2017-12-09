@@ -1,3 +1,5 @@
+html { font-size: calc(18px + 0.25vw); }
+
 body {
   width: 100vw;
   background-color: #fafafa;
