@@ -1,6 +1,4 @@
 img {
-    width: 150px;
-    height: 150px;
   transform: scale(1.0);
   transition: all 300ms 0s ease;
   z-index: auto;
@@ -16,9 +14,23 @@ img:focus {
   z-index: 1;
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 300px) {
   img {
     width: 150px;
     height: 150px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  img {
+    width: 125px;
+    height: 125px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  img {
+    width: 75px;
+    height: 75px;
   }
 }
